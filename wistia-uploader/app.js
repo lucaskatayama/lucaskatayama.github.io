@@ -19,9 +19,9 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', function($rou
 	// var staticPath ='/';
 	var staticPath;
 	// staticPath ='/angular-directives/angular-wistiauploader/';		//local
-	staticPath ='/';		//nodejs (local)
+	staticPath ='./';		//nodejs (local)
 	// staticPath ='/angular-wistiauploader/';		//gh-pages
-	var appPathRoute ='/';
+	var appPathRoute ='./';
 	var pagesPath =staticPath+'pages/';
 	
 	
